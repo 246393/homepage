@@ -7,12 +7,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Homepage</title>
+        <title>Suah's HomePage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 
     </head>
     <body onload="startTime()">
@@ -44,23 +46,25 @@
             <a href="https://gbs.glenbrook225.org/resources/news-events-schedules/calendar" target="_blank">
                 <i class="fas fa-users"></i>
             </a>
+             <div class="youtube-wrapper" id="youtube">
+            <i class="far fa-times-circle exit" onclick="hideYoutube()"></i>
+            <a class="youtube-timeline" href="https://www.youtube.com/@DarylTalksGames"></script>
+        </div>
             <i class="fas fa-compact-disc" onclick="showSpotify()"></i>
             <i class="fab fa-youtube" onclick="showYoutube()"></i>
             <i class="fas fa-school" onclick="showGbs()"></i>
-        </section>
-                <!--SPOTIFY SHOW-->
-        <div class="spotify-wrapper" id="spotify">
+            <div class="spotify-wrapper" id="spotify">
             <i class="far fa-times-circle exit" onclick="hideSpotify()"></i>
             <a class="Spotify-timeline" href="https://open.spotify.com/show/6qJxqNeEbtFpRVkUchWTRr"></script>
         </div>
                 <!--YOUTUBE SHOW-->
-        <div class="youtube-wrapper" id="youtube">
-            <i class="far fa-times-circle exit" onclick="hideYoutube()"></i>
-            <a class="youtube-timeline" href="https://www.youtube.com/@DarylTalksGames"></script>
-        </div>
+       
 
         <div id="clock"></div>
 
+        </section>
+                <!--SPOTIFY SHOW-->
+        
         <script src="myScripts.js" async defer></script>
     </body>
    
