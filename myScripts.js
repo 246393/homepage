@@ -18,39 +18,4 @@ function startTime() {
    //Spotify
    //Direct to Hello Internet Podcast
 
-var showSpotify = false;
-function showSpotify(){
-    if (showSpotify == false){
-        document.getElementById("spotify").style.opacity = 1;
-        document.getElementById("spotify").style.zIndex = 1;
-        showSpotify = true;
-    }
- }
-
- function hideSpotify(){
-    if (showSpotify == true){
-        document.getElementById("spotify").style.opacity = 0;
-        document.getElementById("spotify").style.zIndex = -1;
-        showSpotify = false;
-    }
- }
-
- //Youtube
-//Direct to Daryl Talks Game Channel
- var showYoutube = false;
-function showYoutube(){
-    if (showYoutube == false){
-        document.getElementById("youtube").style.opacity = 1;
-        document.getElementById("youtube").style.zIndex = 1;
-        showYoutube = true;
-    }
- }
-
- function hideYoutube(){
-    if (showYoutube == true){
-        document.getElementById("youtube").style.opacity = 0;
-        document.getElementById("youtube").style.zIndex = -1;
-        showYoutube = false;
-    }
- }
 
