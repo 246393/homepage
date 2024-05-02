@@ -34,17 +34,6 @@ a{
     text-align:center;
     font-family: 'Courier New', monospace;
 }
- /*
-    ==============================================
-    I Frame
-    ===============================================
-    */
-
-    .iframe
-    {
-        width:"100px";
-        height:"300px";
-    }
 /*
 =================================================
 SEARCH
@@ -115,8 +104,5 @@ BOOKMARKS
     .bookmarks i{
     margin:0 15px;
     }
-
-   
-
- 
  }
+  
